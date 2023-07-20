@@ -9,11 +9,9 @@ async function getApiGithub() {
         let content = `
             <img src="${profile.avatar_url}" alt="Foto do Perfil do Github - ${profile.name}">
             <article class="section_content">
-                <h1>Who am I?</h1>
+                <h1>${profile.name}</h1>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam odit voluptates incidunt
-                    inventore rem error harum blanditiis accusamus vitae, minus fugit consequatur? Dolorum maiores magni
-                    deleniti modi sit laudantium totam!
+                Que os momentos sejam requintados de beleza, que as escolhas tragam com ela novos ares ainda mais interessantes.
                 </p>
 
                 <div class="section_github flex">
